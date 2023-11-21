@@ -1,0 +1,31 @@
+1)  Inicio
+2)  ventas, i[0-n]  
+3)  nombre, x[1000], [{a-z}, {BS}, {A-Z}]
+4)  costo, d[0-n]
+5)  tipo, i[0-n]
+6)  descuento, d[0-n] 
+7)  total, d[0-n] 
+8)  ventas <-- 1 
+9)  Mientras ventas <= 7 entonces 
+10)      <<"Ingrese el nombre del cliente" 
+11)     >>nombre 
+12)     <<"Ingrese el costo de la computadora"
+13)     >>costo
+14)     <<"Ingrese el tipo de cliente"
+15)     >>tipo    
+16)     Si tipo == 1 entonces 
+17)        descuento <-- (costo * 0.10)
+18)        total = costo - descuento   
+19)     De lo contrario    
+20)        Si tipo == 2 entonces 
+21)        descuento <-- (costo * 0.20)
+22)        total = costo - descuento
+23)        De lo contrario
+24)           descuento <-- 0 
+25)           total = costo
+26)        Fin si 
+27)     Fin si 
+28) <<"Cliente tipo\t" + tipo ", compra computadora con precio $" + total
+29) ventas <-- ventas + 1 
+30) Fin mientras
+31) Fin  
