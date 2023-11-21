@@ -1,0 +1,36 @@
+1)  Inicio
+2)  nombre, x[500], [{a-z}, {BS}, {A-Z}]  
+3)  posicion, x[100], [{a-z}, {BS}, {A-Z}]
+4)  edad, i[0-n]
+5)  estatura, d[0-n]
+6)  promedio_edad, d[0-n]
+7)  promedio_estatura, d[0-n]
+8)  division, i[0-n]
+9)  n, i[0-n]
+10)  division <-- 1 
+11)  bandera, l <-- true
+12)  opcion, x[15], [a-z] 
+13)  Mientras bandera == true entonces
+14)     <<"Ingrese el nombre del jugador"
+15)     >>nombre    
+16)     <<"Ingrese la posición en la que juega"
+17)     >>posicion   
+18)     <<"Ingrese la edad del jugador"      
+19)     >>edad 
+20)     <<"Ingrese la estatura del jugador"
+21)     >>estatura     
+22)     promedio_edad <-- (edad + edad) / division
+23)     promedio_estatura <-- (estatura + estatura) / division
+24)     <<Listado de Jugadores 
+25)     <<n + ".\t" + nombre\t + "-" + posición + "-,\t" + "edad\t" + edad + ", estatura\t" + estatura
+26)     <<"Promedio de edades:\t" + promedio_edad
+27)     <<"Promedio de estaturas:\t" + promedio_estatura\n
+28)     division <-- division + 1
+29)     n <--  n + 1
+30)     <<"¿Desea ingresar más jugadores? Digite n para terminar"                                                   
+31)     >>opcion
+32)     Si opcion == "n" entonces
+33)        bandera <-- false 
+34)     Fin si
+35) Fin mientras     
+
