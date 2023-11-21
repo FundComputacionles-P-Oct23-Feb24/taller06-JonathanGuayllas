@@ -32,5 +32,4 @@
 32)     Si opcion == "n" entonces
 33)        bandera <-- false 
 34)     Fin si
-35) Fin mientras     
-
+35) Fin mientras 
