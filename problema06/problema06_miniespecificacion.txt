@@ -25,7 +25,7 @@
 25)           total = costo
 26)        Fin si 
 27)     Fin si 
-28) <<"Cliente tipo\t" + tipo ", compra computadora con precio $" + total
+28) <<"Cliente tipo\t" + tipo + ", compra computadora con precio $" + total + "\n"
 29) ventas <-- ventas + 1 
 30) Fin mientras
 31) Fin  

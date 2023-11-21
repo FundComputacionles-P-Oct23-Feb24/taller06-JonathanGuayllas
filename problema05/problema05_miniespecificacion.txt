@@ -14,7 +14,7 @@
 14)     De lo contrario    
 15)        reporte <-- "Reprobado" 
 16)     Fin Si
-17)     <<nombre\t + estudiante\t "con nota\t" + promedio\t "es\t" + reporte   
+17)     <<nombre + "\t" + estudiante + "\tcon nota\t" + promedio + "\tes\t" + reporte + "\n"   
 18)     estudiante <-- estudiante + 1        
 19) Fin mientras
 20) Fin

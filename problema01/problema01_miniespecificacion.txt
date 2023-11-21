@@ -4,7 +4,7 @@
 4)  n <-- 1 
 5)  d <-- 10
 6)  Mientras n <= 6 and d <= 15 entonces
-7)     <<n"/"d
+7)     <<n + "/" + d + "\n"
 8)       n <-- n + 1
 9)       d <-- d + 1
 10) Fin mientras

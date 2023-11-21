@@ -7,7 +7,7 @@
 7)   promedio_estatura, d[0-n]
 8)   division, i[0-n]
 9)   n, i[0-n]
-10)  cadena_f, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+10)  cadena_f, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}] <-- "" 
 11)  division <-- 1 
 12)  bandera, l <-- true
 13)  opcion, x[15], [a-z] 
@@ -20,8 +20,8 @@
 20)     >>edad 
 21)     <<"Ingrese la estatura del jugador"
 22)     >>estatura     
-23)     cadena_f <-- cadena_f + n + ".\t" + nombre\t + "-" + posición + "-,\t" + 
-                     "edad\t" + edad + ", estatura\t" + estatura
+23)     cadena_f <-- cadena_f + n + ".\t" + nombre + "\t" + "-" + posición + "-,\t" + 
+                     "edad\t" + edad + ", estatura\t" + estatura 
 24)     promedio_edad <-- (edad + edad) / division
 25)     promedio_estatura <-- (estatura + estatura) / division
 24)     division <-- division + 1
@@ -35,5 +35,5 @@
 32) <<Listado de Jugadores 
 33) <<cadena_f
 34) <<"Promedio de edades:\t" + promedio_edad
-35) <<"Promedio de estaturas:\t" + promedio_estatura\n
+35) <<"Promedio de estaturas:\t" + promedio_estatura + "\n"
 36) Fin
