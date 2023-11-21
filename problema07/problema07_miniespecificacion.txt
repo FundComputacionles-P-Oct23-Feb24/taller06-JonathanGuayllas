@@ -1,0 +1,12 @@
+1)  Inicio
+2)  d, i[0-n]
+3)  d <-- 1
+4)  Mientras d <= 10 entonces
+5)     Si (d MOD 2 ) == 0 entonces
+6)         << "+1/" + d
+7)     De lo contrario
+8)         << "-1/" + d
+9)     Fin Si
+10)     d <-- d + 1
+11) Fin mientras
+12) Fin

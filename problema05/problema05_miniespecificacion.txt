@@ -1,0 +1,20 @@
+1)  Inicio
+2)  estudiante, i[0-n]  
+3)  nombre, x[1000], [{a-z}, {BS}, {A-Z}]
+4)  promedio, d[0-n]
+5)  reporte, x[100], [{a-z}, {A-Z}]
+6)  estudiante <-- 1
+7)  Mientras estudiante <= 4 entonces  
+8)      <<"Ingrese el nombre del estudiante"
+9)      >>nombre 
+10)     <<"Ingrese el promedio del ciclo" 
+11)     >>promedio
+12)     Si promedio >= 7 and <= 10 entonces
+13)        reporte <-- "Aprobado"
+14)     De lo contrario    
+15)        reporte <-- "Reprobado" 
+16)     Fin Si
+17)     <<nombre\t + estudiante\t "con nota\t" + promedio\t "es\t" + reporte   
+18)     estudiante <-- estudiante + 1        
+19) Fin mientras
+20) Fin
