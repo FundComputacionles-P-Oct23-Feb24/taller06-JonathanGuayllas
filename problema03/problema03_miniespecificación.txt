@@ -13,7 +13,7 @@
 13)     <<"Ingrese el costo del día trabajado"   
 14)     >> costo_dia
 15)        total <-- dias_trabajados * costo_dia                                
-16)     << nombre ":\t" + "días\t" dias_trabajados + ", costo por hora $" + costo_dia + ", total $" + total                         
+16)     << nombre + ":\t" + "días\t" dias_trabajados + ", costo por hora $" + costo_dia + ", total $" + total                         
 17)        empleado <-- empleado + 1 
 18) Fin Mientras       
 19) Fin   
