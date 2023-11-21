@@ -1,0 +1,11 @@
+1)  Inicio
+2)  n, i[0-n] 
+3)  d, i[0-n]
+4)  n <-- 1 
+5)  d <-- 10
+6)  Mientras n <= 6 and d <= 15 entonces
+7)     <<n"/"d
+8)       n <-- n + 1
+9)       d <-- d + 1
+10) Fin mientras
+11) Fin     
