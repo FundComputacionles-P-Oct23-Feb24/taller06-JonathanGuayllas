@@ -1,0 +1,22 @@
+Realizar una miniespecificación que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar 
+el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado.
+
+1)  Inicio
+2)  nombre, x[500], [{a-z}, {BS}, {A-Z}]   
+3)  empleado, i[0-n]
+4)  dias_trabajados, i[0-n]
+5)  costo_dia, d[0-n]
+6)  total, d[0-n]
+7)  empleado <-- 1
+8)  Mientras empleado <= 5 entonces
+9)      <<"Ingrese el nombre del empleado"
+10)     >> nombre
+11)     <<"Ingrese el numero de días trabajados"
+12)     >> dias_trabajados
+13)     <<"Ingrese el costo del día trabajado"   
+14)     >> costo_dia
+15)        total <-- dias_trabajados * costo_dia                                
+16)     << nombre ":\t" + "días\t" dias_trabajados + ", costo por hora $" + costo_dia + ", total $" + total                         
+17)        empleado <-- empleado + 1 
+18) Fin Mientras       
+19) Fin   
